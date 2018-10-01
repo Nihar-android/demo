@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+    {% block pagecontent %}
+        <!-- {% for celebrity in data %}
+            <tr>
+              <td>{{ celebrity.name }}</td>
+              <td>{{ celebrity.worth }}</td>
+            </tr>
+        {% endfor %} -->
+        <a class="btn-link" href="{% url "product" parameter=4 %}" value="{{sku}}">{{sku}}</a>
+
+    {% endblock %}
