@@ -36,7 +36,7 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="{% url 'product' %}">Algorithm</a>
+              <a class="nav-link" href="{% url 'algorithm' %}">Algorithm</a>
             </li>
             <li class="nav-item ">
               <a class="nav-link" href="{% url 'player' %}">Player
@@ -50,9 +50,27 @@
       </div>
     </nav>
     <div class="container">
+      <div class="row">
 
+        <div class="col-lg-3">
+    
+          <h1 class="my-4">Algorithms</h1>
+          <div class="list-group">
+            <a href="#" class="list-group-item">Hybrid</a>
+            <a href="#" class="list-group-item">Apriori</a>
+            <a href="#" class="list-group-item">k-means</a>
+            <a href="#" class="list-group-item">SVM </a>
+            <a href="#" class="list-group-item">KNN </a>
+            <a href="#" class="list-group-item">Random Forest Classification</a>
+          </div>
+    
+        </div>
       {% block pagecontent %}
       {% endblock %}
+    </div>
+    <!-- /.row -->
+    
+    </div>
     </div>
     <!-- /.container -->
 

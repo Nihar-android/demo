@@ -62,5 +62,5 @@ class algorithmPageView(TemplateView):
 
         return render(request, 'algoithm.html', context)
 
-def product(request, parameter): # it's just passed as kwarg into view
-    return render(request, 'algorithm.html')
+# def product(request, parameter): # it's just passed as kwarg into view
+#     return render(request, 'algorithm.html')
